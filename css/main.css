@@ -981,7 +981,6 @@ input::-moz-focus-inner {
 .pull-quote blockquote:before {
   content: none;
 }
-
 /** 
  * Stats Tab
  * ---------
