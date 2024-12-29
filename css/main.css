@@ -2681,7 +2681,28 @@ footer .copyright span::after {
 footer .copyright span:last-child::after {
   display: none;
 }
-
+.flag {
+  display: inline-block;
+  font-size: 1.8em;
+  animation: wave 1.5s ease-in-out infinite;
+}
+@keyframes wave {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    transform: rotateX(10deg) rotateY(10deg);
+  }
+  50% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  75% {
+    transform: rotateX(-10deg) rotateY(-10deg);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+}
 /**
  * responsive:
  * footer
@@ -2741,5 +2762,4 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
   background: #000000;
 }
-
 /*# sourceMappingURL=main.css.map */
