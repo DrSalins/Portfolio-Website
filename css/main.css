@@ -442,21 +442,37 @@ img.pull-left {
   padding: 0 20px;
 }
 @media only screen and (max-width: 1024px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .bgrid {
     padding: 0 18px;
   }
 }
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .bgrid {
     padding: 0 15px;
   }
 }
 @media only screen and (max-width: 600px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .bgrid {
     padding: 0 10px;
   }
 }
 @media only screen and (max-width: 400px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .bgrid {
     padding: 0;
   }
@@ -1155,6 +1171,10 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .section-intro {
     max-width: 650px;
   }
@@ -1163,6 +1183,10 @@ input::-moz-focus-inner {
   }
 }
 @media only screen and (max-width: 600px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .section-intro h1 {
     font-size: 2.6rem;
   }
@@ -1172,6 +1196,10 @@ input::-moz-focus-inner {
   }
 }
 @media only screen and (max-width: 400px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .section-intro h1 {
     font-size: 2.4rem;
   }
@@ -1368,21 +1396,37 @@ header .logo a {
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width: 1024px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   header .top-bar {
     left: 60px;
   }
 }
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   header .top-bar {
     left: 50px;
   }
 }
 @media only screen and (max-width: 600px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   header .top-bar {
     left: 35px;
   }
 }
 @media only screen and (max-width: 400px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   header .top-bar {
     left: 25px;
   }
@@ -1529,6 +1573,10 @@ header .logo a {
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width: 1024px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .intro-content h1 {
     font-size: 7.6rem;
   }
@@ -1540,6 +1588,10 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #intro {
     min-height: 660px;
   }
@@ -1560,6 +1612,10 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 600px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #intro {
     min-height: 600px;
   }
@@ -1674,12 +1730,20 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width: 1024px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .intro-info {
     margin-right: 0;
     margin-left: 0;
   }
 }
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .intro-info img {
     height: 7.8rem;
     width: 7.8rem;
@@ -1703,6 +1767,10 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 600px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .intro-info {
     text-align: center;
     margin-top: 3rem;
@@ -1817,6 +1885,10 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width: 1024px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #resume .timeline-header {
     padding-right: 50px;
   }
@@ -1831,6 +1903,10 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #resume .timeline-wrap::before {
     left: 2.4rem;
   }
@@ -1869,6 +1945,10 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 480px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #resume .resume-header h2 {
     font-size: 2.2rem;
   }
@@ -1979,16 +2059,28 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 @media only screen and (max-width: 1024px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #portfolio .folio-title {
     font-size: 3.1rem;
   }
 }
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #portfolio .folio-title {
     font-size: 2.5rem;
   }
 }
 @media only screen and (max-width: 400px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #portfolio .folio-title {
     font-size: 2.2rem;
   }
@@ -2066,6 +2158,10 @@ header .logo a {
   border: none;
 }
 @media only screen and (max-width: 600px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .popup-modal {
     width: auto;
     margin: 0 20px;
@@ -2186,6 +2282,10 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 @media only screen and (max-width: 650px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   .cta-content {
     max-width: 650px;
   }
@@ -2325,6 +2425,10 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 @media only screen and (max-width: 1024px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #stats .stat:nth-child(n) {
     border-left: 1px solid rgba(255, 255, 255, 0.12);
     padding-bottom: 1.5rem;
@@ -2334,6 +2438,10 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #stats .stat:nth-child(n) {
     border-left: 1px solid rgba(255, 255, 255, 0.12);
   }
@@ -2342,6 +2450,10 @@ header .logo a {
   }
 }
 @media only screen and (max-width: 600px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   #stats .stat:nth-child(n) {
     border: none;
   }
@@ -2655,6 +2767,10 @@ footer .copyright span:last-child::after {
  * -------------------------------------------------------------------
  */
 @media only screen and (max-width: 768px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
   footer {
     text-align: center;
   }
