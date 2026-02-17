@@ -1148,7 +1148,14 @@ input::-moz-focus-inner {
   margin-bottom: 0.3rem;
   letter-spacing: 0.4rem;
 }
-
+.toolsLogo img{
+  height:70px;
+  width:120px;
+}
+.toolsLogo{
+  display: flex;
+  gap:10px;
+}
 /**
  * responsive:
  * common styles
